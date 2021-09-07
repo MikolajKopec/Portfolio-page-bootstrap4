@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khapen</title>
+    <!-- bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,300;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Menu -->
+    <div class="navbar fixed-top  justify-content-center">
+        <a href="#about" class="nav-link">O mnie</a>
+        <a href="#skills" class="nav-link">Umiejętności</a>
+        <a href="#projects" class="nav-link">Projekty</a>
+    </div>
+    <!-- Nagłówek hero -->
+    <section class="hero position-relative d-flex justify-content-center align-items-center text-center">
+        <div class="heroMain d-block position-relative">
+            <h1>Witaj na mojej stronie!</h1>
+            <p>Jeżeli chciałbyś dowiedzieć się czegoś o mnie to dobrze trafiłeś :) Zapraszam</p>
+            <a target="_blank" class="text-white d-block mt-5 pt-3" href="https://github.com/MikolajKopec/">Link do mojego <span class="text-warning">githuba</span>.</a>
+        </div>
+        <!-- Sekcja "o mnie" -->
+    </section>
+    <div  id="about" class="sectionAbout pt-5 pr-2">
+        <div class="row justify-content-center text-center align-items-center mr-2 ml-2 mb-5">
+            <div class="column col-md-6">
+                <a href="https://www.pja.edu.pl"><img src="img/pjatk.png" class="img-fluid" alt="PJATK"></a>
+            </div>
+            <div class="column col-md-6 pt-5 pb-5 about">
+                
+                <h1>O mnie</h1>
+                <p>
+                    Nazywam się Mikołaj Kopeć, skończyłem technikum w Zespole Szkół Politechnicznych w Głogowie jako technik-informatyk. Niedawno rozpocząłem studia na PJATK (Polsko Japońska Akademia Technik Komputerowych) na kierunku Informatyka.
+                </p>
+                <p>
+                    Od pierwszych zajęć zawodowych spodobało mi się kodowanie, dlatego starałem się sam poszerzać swoją wiedzę w wolnych chwilach.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Sekcja "Umiejętności" -->
+        <div class="section pt-5 pb-1 " id="skills">
+            <section class="text-center">
+                <h1 class="pt-5 pb-5 textShadow">Technologie które poznałem: </h1>
+            </section>
+            <div class="shadow-lg rounded ml-3 mr-3">
+            <div class="row d-flex justify-content-center m-3 p-3  text-center ">
+                <div class="column mt-3 col-md-2 d-flex justify-content-center align-items-center">
+                        <img src="img/html5.png" class="img-fluid" alt="html5">
+                </div>
+                <div class="column mt-3 col-md-4 justify-content-center align-items-center d-flex">
+                    <p>
+                       HTML poznawałem na zajęciach zawodowych. Ze względu na przygotowania do egzaminu zawodowego często powtarzaliśmy podstawy, więc mam wszystko dobrze utrwalone.
+                    </p>
+                </div>
+                <div class="column mt-3 col-md-2 d-flex justify-content-center align-items-center ">
+                        <img src="img/css.png" class="img-fluid" alt="html5">
+                </div>
+                <div class="column mt-3 mb-3 col-md-4 justify-content-center align-items-center d-flex">
+                    <p>
+                    CSS tak samo jak HTML potrzebowałem w szkole oraz do zdania egzaminu zawodowego. Jednak po za podstawami jakie były wymagane, uczyłem się o korzystaniu z flexa, animation, media query i wielu innych rzeczy które oferuje.    
+                    </p>
+                </div>
+            </div>       
+            <div class="row d-flex justify-content-center m-3 p-3  text-center ">
+                <div class="column mt-3 col-md-2 d-flex justify-content-center align-items-center">
+                        <img src="img/bootstrap.png" class="img-fluid" alt="html5">
+                </div>
+                <div class="column mt-3 col-md-4 justify-content-center align-items-center d-flex">
+                    <p>
+                        Bootstrapa poznawałem głównie sam, czy to przez różne filmy na youtubie, kursy, czy przez czytanie dokumentacji. Dzięki temu jestem w stanie zbudować szybko, proste strony oparte o ten framework. 
+                    </p>
+                </div>
+                <div class="column mt-3 col-md-2 d-flex justify-content-center align-items-center">
+                        <img src="img/sasspng.png" class="img-fluid" alt="html5">
+                </div>
+                <div class="column mt-3 col-md-4 justify-content-center align-items-center d-flex">
+                    <p>
+                     Sass znam dobrze, rozumiem zasady działania oraz potrafię się nim obsługiwać.
+                    </p>
+                </div>
+            </div>   
+        </div>  
+          <!-- Podstawy umiejętności wyświetlane tylko na dekstopie -->
+            <div class="desktop pb-5">
+            <div class="row m-3 p-3 d-flex justify-content-center align-items-center shadow-lg  rounded">
+                <div class="column col-lg-3"><h1 class="pt-5 pb-5 textShadow">Oprócz tego znam podstawy: </h1></div>
+                <div class="column col-lg-1 pt-5">
+                    <img src="./img/javascript.png" class="img-fluid">
+                </div>
+                <div class="column col-lg-1 pt-5">
+                    <img src="./img/PHP-logo.svg" class="img-fluid mt-3">
+                </div>
+                <div class="column col-lg-1 pt-5">
+                    <img src="./img/sql.png" class="img-fluid">
+                </div>
+                <div class="column col-lg-1 pt-5">
+                    <img src="./img/wordpress-logo.png" class="img-fluid">
+                </div>
+                <div class="column col-lg-1 pt-5">
+                    <img src="./img/vsc.png" class="img-fluid">
+                </div>
+                <div class="column col-lg-1 pt-5">
+                    <img src="./img/cplusplus.png" class="img-fluid">
+                </div>
+                <div class="column col-lg-1 pt-5">
+                    <img src="./img/csharp.png" class="img-fluid">
+                </div>
+                <div class="column col-lg-1 pt-5">
+                    <img src="./img/unity.png" class="img-fluid">
+                </div>
+                <div class="column col-lg-1 pt-5">
+                    <img src="./img/git.png" class="img-fluid">
+                </div>
+            </div>  
+        </div>
+        <!-- Podstawowy umiejętności wyświetlane tylko na telefonie -->
+        <div class="mobile rounded shadow-lg m-3 p-3 ">
+            <h1 class="pt-5 pb-5 textShadow text-center">Oprócz tego znam podstawy: </h1>
+            <div class="rowMobile ">
+            <img class="imgRow" src="/img/javascript.png">
+            <img class="imgRow" src="/img/PHP-logo.svg">
+            <img class="imgRow" src="/img/sql.png">
+        </div>
+            <div class="rowMobile ">
+            <img class="imgRow" src="/img/wordpress-logo.png">
+            <img class="imgRow" src="/img/vsc.png">
+            <img class="imgRow" src="/img/cplusplus.png">
+        </div>
+            <div class="rowMobile ">
+            <img class="imgRow" src="/img/csharp.png">
+            <img class="imgRow" src="/img/unity.png">
+            <img class="imgRow" src="/img/git.png">
+        </div>
+        </div>
+        </div>
+        <!-- Sekcja "Projekty" -->
+        <section class="text-center m-2 p-2" id="projects">
+            <h1 class="textShadow text-center">Wykonane projekty:</h1>
+        </section>
+        <div class="row shadow-lg rounded ml-3 mr-3 p-2">
+            <div class="column col-md-6">
+                <a href="https://khapen.github.io.">
+                <img src="./img/projekty/o_mnie.png" alt="strona o" class="img-fluid border border-info rounded p-0 m-0">
+                </a>
+            </div>
+            <div class="column col-md-6">
+                <p class="pt-5">Pierwsza strona którą postanowiłem pokazać. Głównie na czym mi zależało podczas jej tworzenia, to pokazanie że potrafię korzystać z bootstrap4,
+                    oraz że wiem jak zrobić responsywną stronę, czy to dzięki frameworkowi, czy dzięki media query.
+                </p>
+            </div>
+            <hr>
+        </div>
+        <!-- Stopka -->
+        <div class="row d-flex justify-content-center m-0 p-0 footer text-center">
+            <div class="column col-md-12">
+                Mikołaj Kopeć &copy; 2020
+            </div>
+        </div>      
+        
+        
+            
+         
+
+    <!-- bootstrap js  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
